@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Landing, FlagshipEvents, Youtube } from '../components'
+import { Navbar, Landing, FlagshipEvents, Youtube, Footer, CallToAction } from '../components'
 
 const Home = () => {
   return (
@@ -8,6 +8,8 @@ const Home = () => {
     <Landing />
     <FlagshipEvents />
     {/* <Youtube /> */}
+    <CallToAction />
+    <Footer />
     
     </>
   )

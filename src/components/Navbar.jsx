@@ -13,7 +13,7 @@ const Navbar = () => {
     {name:"Contact Us",link:'#contactus'},
   ]
   return (
-    <div className="w-full fixed top-0 left -0 shadow-md z-40">
+    <div className="w-full fixed top-0 left -0 shadow-md z-40 text-bluee">
         <div className="md:flex items-center justify-between py-2 bg-white justify-between md:px-10 px-7">
           <div><Link to="/"><img className=" h-14" src={iedc_logo} alt="iedc_logo" /></Link></div>
           <div onClick={()=>{setOpen(!open)}} 
@@ -25,7 +25,7 @@ const Navbar = () => {
             {
                 links.map((link)=>(
                 <li key={link.name} className="md:ml-8 md:my-0 my-7 text-md">
-                    <Link to={link.link} className="text-gray-800 font-semibold hover:text-greeen duration:500">{link.name}</ Link>
+                    <Link to={link.link} className="text-bluee font-semibold hover:text-greeen duration:500">{link.name}</ Link>
                 </li>
                 ))
             }

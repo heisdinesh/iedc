@@ -18,7 +18,7 @@ const FlagshipEvents = () => {
         {name:'Workshops', icon:workshop_logo, link:'/workshops'},
     ]
   return (
-    <div className="pt-24 h-screen md:px-10 px-7 mx-auto">
+    <div className="pt-24 h-screen md:px-10 px-7 mx-auto text-bluee">
         <div className="md:w-8/12 flex items-center justify-center mx-auto">
             <p className="flex items-center justify-center md:text-4xl text-2xl font-semibold text-center">We help students to gain skills, pursue
 entrepreneurship and results speak
