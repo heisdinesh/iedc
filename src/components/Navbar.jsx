@@ -7,7 +7,7 @@ const Navbar = () => {
     const[open,setOpen] =useState(false)
 
   let links=[
-    {name:"Events",link:'/events'},
+    {name:"Events",link:'/events/upcoming'},
     {name:"StartUp School",link:'/startup-school'},
     {name:"Our Team",link:'/our-team'},
     {name:"Contact Us",link:'#contactus'},

@@ -1,13 +1,15 @@
 import React from 'react'
-import { Navbar, Landing, FlagshipEvents, Youtube, Footer, CallToAction } from '../components'
+import { Navbar, Landing, FlagshipEvents, Youtube, Footer, CallToAction,Announcements } from '../components'
 
 const Home = () => {
   return (
     <>
+    
     <Navbar />
+    {/* <Announcements /> */}
     <Landing />
     <FlagshipEvents />
-    {/* <Youtube /> */}
+    <Youtube />
     <CallToAction />
     <Footer />
     

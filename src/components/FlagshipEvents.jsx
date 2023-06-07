@@ -10,12 +10,12 @@ import hackathon_logo from "../assets/hackathon_logo.svg"
  
 const FlagshipEvents = () => {
     let events=[
-        {name:'E-Summit', icon:esummit_logo, link:'/esummit'},
-        {name:'MSME', icon:msme_logo, link:'/msme'},
-        {name:'NISP', icon:msme_logo, link:'/nisp'},
-        {name:'CEO Connect', icon:ceo_logo, link:'/ceo-connect'},
-        {name:'Hackathon', icon:hackathon_logo, link:'/hackathon'},
-        {name:'Workshops', icon:workshop_logo, link:'/workshops'},
+        {name:'E-Summit', icon:esummit_logo, link:'#'},
+        {name:'MSME', icon:msme_logo, link:'#'},
+        {name:'NISP', icon:msme_logo, link:'#'},
+        {name:'CEO Connect', icon:ceo_logo, link:'#'},
+        {name:'Hackathon', icon:hackathon_logo, link:'#'},
+        {name:'Workshops', icon:workshop_logo, link:'#'},
     ]
   return (
     <div className="pt-24 h-screen md:px-10 px-7 mx-auto text-bluee">

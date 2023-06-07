@@ -2,7 +2,7 @@ import React from 'react'
 
 const CallToAction = () => {
   return (
-    <div className="px-7 md:px-10">
+    <div className="px-7 md:px-10 pt-24">
         <div className="flex flex-col md:flex-row justify-center mx-auto gap-6 md:gap-0">
             <div className="py-16 pl-12 md:w-3/6 flex flex-col gap-6 justify-evenly bg-gradient-to-r from-graay-2  to-white">
                 <p className="md:text-3xl text-xl font-medium md:font-normal  md:w-2/3 w-10/12">Practice Entrepreneur Challenges & Prepare for your venture</p>

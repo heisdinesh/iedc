@@ -13,22 +13,22 @@ const Youtube = () => {
         
     ]
   return (
-    <div className="pt-28 bg-graay h-screen md:px-10 px-7 ">
+    <div className="md:pt-28 pt-20 bg-graay md:h-screen md:px-10 px-7 pb-20">
         <div className="flex items-center justify-center flex-col gap-8">
-            <p className="flex items-center justify-center md:text-4xl text-2xl font-semibold text-center">
+            <p className="flex items-center pb-4 justify-center md:text-4xl text-2xl font-semibold text-center">
             Build your Startup with us
             </p>
-            <div className="w-max-md">
+           <div className="md:w-2/5 w-11/12">
+           <div className="aspect-video w-full">
             <iframe
-            width="756"
-            height="423"
             src="https://www.youtube.com/embed/OjGcnUVP73Q"
             title="YouTube video player"
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-            className="rounded"></iframe>
+            className=" top-0 left-0 w-full h-full "></iframe>
             </div>
-            <div className="flex gap-16">
+           </div>
+            <div className="md:flex md:gap-16 hidden">
                 {
                     stages.map((stage)=>(
                         <img className="w-12" src={stage.img} />
