@@ -5,21 +5,21 @@ import {AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineMail} 
 
 const Footer = () => {
     const resources=[
-        {name:'Business Model Canvas',link:'/bmc'},
-        {name:'Financial Modeling',link:'/financial-modelling'},
-        {name:'Pitch Deck',link:'/pitch-deck'},
+        {name:'Business Model Canvas',link:'#'},
+        {name:'Financial Modeling',link:'#'},
+        {name:'Pitch Deck',link:'#'},
     ]
     const initiatives=[
-        {name:'E-Summit',link:'/E-summit'},
-        {name:'MSME',link:'/msme'},
-        {name:'CEO Connect',link:'/ceo-connect'},
-        {name:'Hackathons',link:'/hackathons'},
+        {name:'E-Summit',link:'#'},
+        {name:'MSME',link:'#'},
+        {name:'CEO Connect',link:'#'},
+        {name:'Hackathons',link:'#'},
     ]
     const organizations=[
-        {name:'About Us',link:'/about Us'},
-        {name:'Our Team',link:'/our team'},
-        {name:'Privacy Policy',link:'/privacy-policy'},
-        {name:'Contact Us',link:'/#contactUs'},
+        {name:'About Us',link:'#'},
+        {name:'Our Team',link:'#'},
+        {name:'Privacy Policy',link:'#'},
+        {name:'Contact Us',link:'#'},
     ]
     const socialMedia=[
         {name:'instagram',icon:<AiOutlineInstagram />,link:'/iedc'},
@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-5">
                     <p className="text-md font-medium">Find your next Cofounders <br/> and teamMates</p>
-                    <button className="bg-greeen font-bold py-2 md:px-8 w-2/3 md:w-full  text-white rounded  hover:bg-green-400 duration:500">Join the Community</button>
+                    <Link to="https://t.me/+j39Zz1DFwuc4MTA1" target="_blank" className="bg-greeen font-bold py-2 md:px-8 w-2/3 md:w-full  text-white rounded  hover:bg-green-400 duration:500" >Join the Community</Link>
                 </div>
                 
             </div>

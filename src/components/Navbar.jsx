@@ -30,7 +30,7 @@ const navigate = useNavigate()
                 ))
             }
          <div className="flex flex-col md:flex-row gap-6 md:gap-0  font-semibold">
-          <button className="bg-graay py-2 px-6 rounded md:ml-8  hover:bg-green-400 duration:500">Forum</button>
+          <Link target="_blank" to="https://t.me/+j39Zz1DFwuc4MTA1"><button className="bg-graay py-2 px-6 rounded md:ml-8  hover:bg-green-400 duration:500">Forum</button></Link>
           <button onClick={()=>(navigate("/pitch"))} className="bg-greeen py-2 px-6 text-white rounded md:ml-8  hover:bg-green-400 duration:500">Pitch your Idea</button>
           </div>
           </ul>
