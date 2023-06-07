@@ -11,7 +11,7 @@ const Landing = () => {
             Join 1000+ members who work on their ideas everyday</p>
          <div className="flex gap-4">
          <button className="bg-greeen font-bold py-2 px-8 text-white rounded md:ml-8  hover:bg-green-400 duration:500">Join IEDC</button>
-        <button className="border-2 border-gray-600 font-bold  py-2 px-8 rounded md:ml-8  hover:bg-green-400 duration:500">Forum</button>
+        <button className="border-2 border-gray-600 font-bold  py-2 px-8 rounded md:ml-8  hover:bg-green-400 duration:500">Pitch</button>
          </div>
 
         </div>

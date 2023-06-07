@@ -28,7 +28,7 @@ const Footer = () => {
         {name:'mail',icon:<AiOutlineMail />,link:'/iedc'},
     ]
   return (
-    <div className=" pt-24 text-bluee">
+    <div id="contactus" className=" pt-24 text-bluee">
         <div>
             <div className="bg-graay-2 py-4 flex justify-center items-center">
                 <Link className="md:text-xl text-md font-bold text-bluee " to="/alumini">Join our Alumni Network</Link>

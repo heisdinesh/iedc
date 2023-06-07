@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import iedc_logo from "../assets/iedc_logo_name.svg"
 
 const Navbar = () => {
     const[open,setOpen] =useState(false)
-
+const navigate = useNavigate()
   let links=[
     {name:"Events",link:'/events/upcoming'},
     {name:"StartUp School",link:'/startup-school'},
@@ -31,7 +31,7 @@ const Navbar = () => {
             }
          <div className="flex flex-col md:flex-row gap-6 md:gap-0  font-semibold">
           <button className="bg-graay py-2 px-6 rounded md:ml-8  hover:bg-green-400 duration:500">Forum</button>
-          <button className="bg-greeen py-2 px-6 text-white rounded md:ml-8  hover:bg-green-400 duration:500">Pitch your Idea</button>
+          <button onClick={()=>(navigate("/pitch"))} className="bg-greeen py-2 px-6 text-white rounded md:ml-8  hover:bg-green-400 duration:500">Pitch your Idea</button>
           </div>
           </ul>
           
