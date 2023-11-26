@@ -11,10 +11,11 @@ const navigate = useNavigate()
     {name:"StartUp School",link:'/startup-school'},
     {name:"Our Team",link:'/our-team'},
     {name:"Contact Us",link:'#contactus'},
+    {name:"E-Summit'23",link:'/esummit'}
   ]
   return (
     <div className="w-full fixed top-0 left -0 shadow-md z-40 text-bluee">
-        <div className="md:flex items-center justify-between py-2 bg-white justify-between md:px-10 px-7">
+        <div className="md:flex items-center justify-between py-2 bg-white  md:px-10 px-7">
           <div><Link to="/"><img className=" h-14" src={iedc_logo} alt="iedc_logo" /></Link></div>
           <div onClick={()=>{setOpen(!open)}} 
           className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
