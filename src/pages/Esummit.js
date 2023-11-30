@@ -1,5 +1,7 @@
+// Esummit.js
 import React, { useState, useEffect } from 'react';
 import { Footer, Navbar, Hero } from '../components';
+import StickyComponents from '../components/StickyComponents';
 
 const Esummit = () => {
   const [imageSource, setImageSource] = useState('images/fffbg3.png'); // Initial image source
@@ -12,6 +14,13 @@ const Esummit = () => {
 
     handleResize();
 
+    // Add resize event listener
+    window.addEventListener('resize', handleResize);
+
+    // Remove event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
@@ -24,6 +33,7 @@ const Esummit = () => {
           alt='Zoomed Out Image'
           className="object-cover object-center max-w-full h-full transform scale-[100%]"
         />
+        <StickyComponents />
       </div>
       <Footer />
     </div>
